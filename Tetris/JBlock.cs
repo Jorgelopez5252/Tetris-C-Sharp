@@ -17,24 +17,3 @@
         protected override Position[][] Tiles => tiles;
     }
 }
-
-
-//namespace Tetris
-//{
-//    public class JBlock : Block
-//    {
-//        private readonly Position[][] tiles = new Position[][]
-//        {
-//            new Position[] {new(), new(), new(), new(), },
-//            new Position[] {new(), new(), new(), new(), },
-//            new Position[] {new(), new(), new(), new(), },
-//            new Position[] {new(), new(), new(), new(), }
-//        };
-
-//        public override int Id => 2;
-
-//        protected override Position StartOffset => new Position(0, 3);
-
-//        protected override Position[][] Tiles => tiles;
-//    }
-//}
