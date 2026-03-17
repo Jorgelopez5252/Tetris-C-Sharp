@@ -9,8 +9,7 @@
         MinWidth="600" MinHeight="600"
         Foreground="White"
         FontFamily="Segoe UI Light" FontSize="28"
-        KeyDown="Window_KeyDown"
-        >
+        KeyDown="Window_KeyDown">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -37,9 +36,7 @@
                 Width="250"
                 Height="500"
                 ClipToBounds="True"
-                Loaded="GameCanvas_Loaded"  
-                
-            />
+                Loaded="GameCanvas_Loaded"/>
         </Viewbox>
 
         <TextBlock x:Name="ScoreText"
@@ -78,8 +75,27 @@
         <Grid x:Name="GameOverMenu"
               Background="#CC000000"
               Grid.RowSpan="2"
-              Grid.ColumnSpan="3">
+              Grid.ColumnSpan="3"
+              Visibility="Hidden">
 
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+
+                <TextBlock Text="Game Over"
+                           FontSize="48"
+                           TextAlignment="Center"/>
+
+                <TextBlock x:Name="FinalScoreText"
+                           Text="Score: "
+                           FontSize="36"
+                           TextAlignment="Center"/>
+
+                <Button Content="Play Again"
+                        Background="LightGreen"
+                        Margin="0,20,0,0"
+                        Padding="5"
+                        Click="PlayAgain_Click"/>
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>
