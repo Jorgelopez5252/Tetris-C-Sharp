@@ -2,8 +2,8 @@
 {
     public class GameState
     {
-        //private Block currentBlock;
-        private Block currentBlock = null!;
+        private Block currentBlock;
+        //private Block currentBlock = null!;
 
         public Block CurrentBlock
         {
