@@ -37,7 +37,7 @@ namespace Tetris
             new BitmapImage(new Uri("Assets/Block-L.png", UriKind.Relative)),
             new BitmapImage(new Uri("Assets/Block-O.png", UriKind.Relative)),
             new BitmapImage(new Uri("Assets/Block-S.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-S.png", UriKind.Relative)),
+            new BitmapImage(new Uri("Assets/Block-T.png", UriKind.Relative)),
             new BitmapImage(new Uri("Assets/Block-Z.png", UriKind.Relative))
      };
 
